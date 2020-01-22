@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 1px solid red;
+}
+/* styling header */
+
+body {
+	width: 1024px;
+	padding: 0 75px;
+	margin: 0 auto;
+}
+header nav a{
+	color:gray;
+	text-decoration: none;
+	padding: 0% 4% 0% 0%;
+}
+
+header nav{
+	width: 70%;
+	padding: 2% 1% 9% 0%;
+	display: inline-block;
+	/* text-align: center; */
+}
+
+.logo {
+	display: inline-block;
+	/* width: 15%; */
+	text-align: center;
+	position: relative;
+    top: 10px;
+}
+
+/* section 1 style */
+.section1{
+	font-size: 75px;
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+}
+
+.section2 {
+	display: inline-block;
+	width: 49%;
+}
+
+/* .code{
+	display: inline-block;
+	border: 1px solid black;
+} */
+
+.button{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	padding: -30%;
+}
+
+footer p{
+	text-align: center;
+}
+
+.features, .about{
+	width: 49%;
+	display: inline-block;
+}
+
+.middleimage{
+	padding: 35px 0;
+}
+
+.services, .product, .vision{
+	width: 33%;
+	display: inline-block;
+}
+
+.aboutContainer{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 35px 0;
+	margin: 35px 0;
+}
+
+.aboutContainer div {
+	padding: inherit 4px;
+}
+footer{
+	padding-top: 50px;
+}
